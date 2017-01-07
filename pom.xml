@@ -23,7 +23,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.base22.mapreduce-test.VoteCount</mainClass>
+                            <mainClass>com.base22.VoteCount</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

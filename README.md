@@ -1,9 +1,12 @@
 # MapReduce example
 
-Basic MapReduce implementation for Hadoop data processing. 
+Basic MapReduce implementation for Hadoop data processing. Uses the input provided by
+a text file and outputs the words found in that file with the ammount of times they
+are repeated on the file.
 
 I tested this implementation using the[Hortonworks Sandbox][1]
-VirtualBox VM. You can familiarize yourself with it using [this][2] tutorial.
+VirtualBox VM. If you decide to use it you can familiarize yourself with it using 
+[this][2] tutorial.
 
 Follow the Wiki created for this repository to learn more about Hadoop, MapReduce and working with the Hortonworks Sandbox. 
 
@@ -15,7 +18,7 @@ Follow the Wiki created for this repository to learn more about Hadoop, MapReduc
 ## Expected output
 
 - Generate a jar file using `mvn package` in the project's root directory.
-- To run the MapReduce job use `hadoop jar yourJarFile.jar [input file path]
+- Run the MapReduce job using `hadoop jar yourJarFile.jar [input file path]
  [output directory path]` For example:
 ```
 hadoop jar /path/to/jar/file/test-1.0-SNAPSHOT.jar		\

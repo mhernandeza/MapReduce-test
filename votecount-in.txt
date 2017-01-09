@@ -4,6 +4,9 @@ second
 winner
 second
 third
-null
 one
+winner
 same
+winner
+second
+third

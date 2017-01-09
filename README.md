@@ -1,12 +1,9 @@
 # MapReduce example
 
-Basic MapReduce implementation for Hadoop data processing. I tested this 
-implementation using the[Hortonworks Sandbox](http://hortonworks.com/products/sandbox/)
-VirtualBox VM. You can connect to it through **ssh** and it lets you manage your files 
-via the command line and a dashboard accessible from any browser through 
-*http://127.0.0.1:8080/* implemented using Ambari. You can familiarize yourself with 
-it using [this](http://hortonworks.com/hadoop-tutorial/learning-the-ropes-of-the-hortonworks-sandbox/)
-tutorial.
+Basic MapReduce implementation for Hadoop data processing. 
+
+I tested this implementation using the[Hortonworks Sandbox][1]
+VirtualBox VM. You can familiarize yourself with it using [this][2] tutorial.
 
 Follow the Wiki created for this repository to learn more about Hadoop, MapReduce and working with the Hortonworks Sandbox. 
 
@@ -35,3 +32,6 @@ second 3
 third  2
 winner 5
 ```
+
+[1]:http://hortonworks.com/products/sandbox/
+[2]:http://hortonworks.com/hadoop-tutorial/learning-the-ropes-of-the-hortonworks-sandbox/

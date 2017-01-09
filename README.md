@@ -19,8 +19,8 @@ Follow the Wiki created for this repository to learn more about Hadoop, MapReduc
  [output directory path]` For example:
 ```
 hadoop jar /path/to/jar/file/test-1.0-SNAPSHOT.jar		\
-/path/to/input/file/		\
-votecount-in.txt /path/to/output/directory/      
+/path/to/input/file/votecount-in.txt		\
+/path/to/output/directory/      
 ```
 
 Using the *votecount-in.txt* file as input, you should find a file with the 

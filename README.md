@@ -4,9 +4,9 @@ Basic MapReduce implementation for Hadoop data processing. Uses the input provid
 a text file and outputs the words found in that file with the ammount of times they
 are repeated on the file.
 
-I tested this implementation using the[Hortonworks Sandbox][1]
+I tested this implementation using the [Hortonworks Sandbox][1]
 VirtualBox VM. If you decide to use it you can familiarize yourself with it using 
-[this][2] tutorial.
+[this][2] tutorial. 
 
 Follow the Wiki created for this repository to learn more about Hadoop, MapReduce and working with the Hortonworks Sandbox. 
 
@@ -38,3 +38,6 @@ winner 5
 
 [1]:http://hortonworks.com/products/sandbox/
 [2]:http://hortonworks.com/hadoop-tutorial/learning-the-ropes-of-the-hortonworks-sandbox/
+##// TODO
+- Document progress on the Wiki.
+

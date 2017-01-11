@@ -23,14 +23,19 @@ public class VoteCount extends Configured implements Tool {
 		System.exit( res );
 	}
 
-	@Override
 	public int run( String[] args ) throws Exception {
 		if ( args.length != 2 ) {
 			System.out.println( "Incorrect input, expected: [input] [output]" );
 			System.exit( - 1 );
 		}
 
+		// Create new Job
+
 		Job job = Job.getInstance( new Configuration() );
+		job.setJarByClass( VoteCount.class );
+
+		// Set job-specific parameters
+
 		job.setOutputKeyClass( Text.class );
 		job.setOutputValueClass( Text.class );
 
@@ -45,7 +50,8 @@ public class VoteCount extends Configured implements Tool {
 
 		FileInputFormat.setInputPaths( job, new Path( args[0] ) );
 		FileOutputFormat.setOutputPath( job, new Path( args[1] ) );
-		job.setJarByClass( VoteCount.class );
+
+		// Submit job and poll its status.
 
 		job.submit();
 		return job.waitForCompletion( true ) ? 0 : 1;

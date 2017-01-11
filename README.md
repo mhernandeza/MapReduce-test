@@ -8,7 +8,7 @@ I tested this implementation using the [Hortonworks Sandbox][1]
 VirtualBox VM. If you decide to use it you can familiarize yourself with it using 
 [this][2] tutorial. 
 
-Follow the Wiki created for this repository to learn more about Hadoop, MapReduce and working with the Hortonworks Sandbox. 
+Follow the [wiki][3] created for this repository to learn more about Hadoop, MapReduce and working with the Hortonworks Sandbox. 
 
 ## Requirements
 
@@ -38,6 +38,5 @@ winner 5
 
 [1]:http://hortonworks.com/products/sandbox/
 [2]:http://hortonworks.com/hadoop-tutorial/learning-the-ropes-of-the-hortonworks-sandbox/
-##// TODO
-- Document progress on the Wiki.
+[3]:https://github.com/mhernandeza/MapReduce-test/wiki
 

@@ -36,6 +36,26 @@ third  2
 winner 5
 ```
 
+You can also use multiple input files, to do so simply add the path to the directory 
+containing the input files and Haddop will take care of it in the end. Run:
+
+```
+hadoop jar /path/to/jar/file/test-1.0-SNAPSHOT.jar \
+/path/to/input/directory/
+/path/to/output/directory/
+```
+
+Using both the *votecount-in.txt* and the *additional-in.txt* files, you should find 
+the following in your output directory:
+```
+four	4
+one		1
+same	1
+second	3
+third	2
+two		2
+winner	6
+```
 [1]:http://hortonworks.com/products/sandbox/
 [2]:http://hortonworks.com/hadoop-tutorial/learning-the-ropes-of-the-hortonworks-sandbox/
 [3]:https://github.com/mhernandeza/MapReduce-test/wiki

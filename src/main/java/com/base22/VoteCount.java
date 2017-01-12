@@ -29,9 +29,11 @@ public class VoteCount extends Configured implements Tool {
 			System.exit( - 1 );
 		}
 
+		Configuration conf = this.getConf();
+
 		// Create new Job
 
-		Job job = Job.getInstance( new Configuration() );
+		Job job = new Job(conf, "Tool Count Job");
 		job.setJarByClass( VoteCount.class );
 
 		// Set job-specific parameters
